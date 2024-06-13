@@ -1,0 +1,14 @@
+{
+  "name": "twitter-posting-assistant",
+  "version": "1.0.0",
+  "description": "A Node.js application that uses OpenAI's API to help manage Twitter posts.",
+  "main": "tweetAssistant.js",
+  "scripts": {
+    "start": "node tweetAssistant.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "openai": "^2.0.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
